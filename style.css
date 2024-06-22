@@ -1,0 +1,317 @@
+*,
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.pertama {
+  width: 100%;
+  height: 30vh;
+}
+
+.container {
+  background-color: wheat;
+  width: 100%;
+}
+
+.ul-navbar {
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.home-navbar {
+  color: white;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.li-navbar {
+  list-style: none;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+}
+
+.li-navbar:hover {
+  background-color: grey;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.3s;
+  border-radius: 8px;
+}
+
+.a-content {
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.img-content {
+  border-radius: 80px;
+  width: 300px;
+  height: 300px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.kedua {
+  width: 100%;
+  background-color: black;
+}
+
+.ul-bunuh {
+  background-color: #333;
+  width: 100%;
+
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 30px;
+}
+
+.h1-bunuh {
+  color: white;
+  font-size: 32px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.div-tentang {
+  background-color: lightblue;
+  width: 100%;
+}
+
+.a-img {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.a-tentang {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: 80px;
+}
+
+.img-dua {
+  width: 300px;
+  height: 300px;
+  border-radius: 70px;
+}
+
+.h1-tentang {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.p-tentang {
+  margin-block-start: 1em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 24px;
+  color: black;
+}
+
+.b-rokok {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+
+.b-tentang {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.ketiga {
+  width: 100%;
+  height: 15vh;
+  background-color: lightblue;
+}
+
+.ul-contact {
+  background-color: #333;
+}
+
+.h1-contact {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.input {
+  background-color: lightblue;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row .input-grup {
+  flex-basis: 48%;
+}
+
+form {
+  background-color: lightblue;
+  width: 100%;
+  max-width: 250px;
+  margin-bottom: 0px;
+}
+
+.input-grup {
+  margin-bottom: 30px;
+  position: relative;
+  color: black;
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid black;
+  color: black;
+  font-size: 15px;
+}
+
+label {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 15px;
+  color: black;
+  cursor: text;
+}
+
+button {
+  padding: 10px 0;
+  color: black;
+  outline: none;
+  border: 1px solid black;
+  width: 100%;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #333;
+}
+
+.last-container {
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.container-about {
+  width: 100%;
+  
+}
+
+.hiji {
+  width: 100%;
+}
+
+.navbar-about {
+  background-color: #333;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  height: 7vh;
+}
+
+.li-about {
+  list-style: none;
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+}
+
+.li-about:hover {
+  background-color: grey;
+  transition: 0.3s ease-in-out;
+  transition-delay: 0.3s;
+  border-radius: 8px;
+}
+
+.about-cs {
+  color: white;
+  text-decoration: none;
+  font-family: "Times New Roman", Times, serif;
+}
+
+
+
+.div-about {
+  background-color: lightblue;
+  height: 65vh;
+}
+
+.img-about {
+  width: 100px;
+  height: 100px;
+  border-radius: 70px;
+  padding: 20px;
+}
+
+.p-about {
+  margin-block-start: 1em;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  color: black;
+  
+}
+
+.b-about {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+}
+
+.about-dua{
+
+}
+
+.ul-stop {
+  background-color: #333;
+  width: 100%;
+  height: 13vh;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 30px;
+}
+
+.h1-stop {
+  color: white;
+  font-size: 32px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
